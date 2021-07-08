@@ -56,5 +56,13 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  }
+  },
+  css: [
+    "~/assets/css/css2.css",
+    "~/assets/css/css3.css",
+    "~/assets/css/css4.css",
+    "~/assets/css/css5.css",
+    "~/assets/css/tailwind.css",
+  ]
+  
 };
